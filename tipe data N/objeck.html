@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //null yaitu tidak memiliki nilai atau nilai kosong 
+        var a;
+        a = null;
+        var b = null;
+
+        console.log(a);
+        console.log(b);
+        console.log(typeof a);
+
+        var biodata = {
+            namaDepan: "mutiara",
+            namaTengah: "indra",
+            namaBelakang: "fannya",
+            showName: function() {
+                alert(`Nama: ${this.namaDepan} ${this.namaTengah} ${this.namaBelakang}`);
+            }
+        }
+        biodata.showName();
+    </script>
+</body>
+</html>
